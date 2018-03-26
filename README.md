@@ -1,6 +1,25 @@
 # CatchMeIfYouCan
 Game (under process)
 
+Game to Catch your opponent[Guess Current position] .
+
+start with a random genrated Grid of size  5x5 ,6x6 (dynamic take input, bigger the grid more is the difficulty)
+Player could set their own positions to start the game . 
+player can call out  catch after very loop it has to be the player starting the loop .
+
+A loop is compleated with steps 
+
+* first move is to call out a operator for your oponent 
+* opponent set direction on himself 
+* Operation combining Operator and direction is preformed 
+* Result is notified to the Loop initiator 
+* based on this initiator can make a guess and call out a catch for oponents current position 
+
+
+
+
+
+
 Operators : + , -, * [can extend or create your Own dynamic]  , works on Curent and next , current * Next or Current - Next 
 Directoin : L(Left), R, U(up), D
 
